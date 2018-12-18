@@ -16,7 +16,6 @@ public class zad1 extends Thread{
 		while(true) {
 			System.out.println("thread: "+id+", date: "+now);
 			try {
-				//usypiamy w¹tek na 100 milisekund
 				Thread.sleep(300);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
